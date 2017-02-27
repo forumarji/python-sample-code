@@ -17,3 +17,7 @@ print("\nTo iterate over the indices of a sequence")
 a = ['I','Love','Python']
 for i in range(len(a)):
     print(i, a[i])
+
+print(range(10)) # It is an object which returns the successive items of the desired sequence when you iterate over it
+
+print(list(range(5)))
